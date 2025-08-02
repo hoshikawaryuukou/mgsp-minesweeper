@@ -43,13 +43,10 @@ root/
 │   └── electron/        # 桌面 app
 │
 ├── apis/
-│   ├── channel-a/       # 給合作方 A 的 API（例如 REST + JSON）
-│   ├── channel-b/       # 給合作方 B 的 API（例如 GraphQL 或 RPC）
-│   └── internal-api/    # 自家使用（ex: web app / 管理工具）
+│   └── channel-a/       # 給合作方 A 的 API
 │
 ├── packages/
-│   ├── core/            # 純邏輯（盤面邏輯、遊戲流程）
-│   ├── shared-types/    # 共用型別定義（如 GameState, DTO）
+│   ├── game-core/       # 純邏輯（盤面邏輯、遊戲流程）
 │   └── utils/           # 共用工具（加密、驗證、格式轉換）
 │
 ├── scripts/
