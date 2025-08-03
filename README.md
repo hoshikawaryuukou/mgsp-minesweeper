@@ -17,7 +17,6 @@
 - 前端框架 : Vue 3
 - UI 元件庫 : Vuetify 3
 - 桌面應用程式框架 : Electron
-
 - Schema 驗證庫 : Zod
 - pinia
 - vitest
